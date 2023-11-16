@@ -2,7 +2,7 @@
 Back up my usual dot file on linux
 
 ### How to use it.
-1. Clone this repository\
+1. Clone this repository
     ```
     https://github.com/IbenZhou/dotfile-backup.git
     ````
