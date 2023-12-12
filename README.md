@@ -4,15 +4,15 @@ Back up my usual dot file on linux
 ### How to use it.
 1. Clone this repository
     ```
+    cd ~
     https://github.com/IbenZhou/dotfile-backup.git
     ````
-
-2. cp all file to home
+3. cp all file to home
     ```
-    cd dotfile-backup
-    cp * .* ~/ -r
+    cd dotfile-backup/
+    cp .vim* .zsh* ~/ -r
     ```
-3. Clone the plugins which I'm using.
+4. Clone the plugins which I'm using.
    ```
    cd ./zsh/plugins
    git clone --depth=1 https://github.com/romkatv/powerlevel10k.git
@@ -21,12 +21,12 @@ Back up my usual dot file on linux
    git clone https://github.com/none9632/zsh-sudo.git
    git clone https://github.com/zsh-users/zsh-syntax-highlighting.git
    ```
-4. Move all the plugins to system path\
+5. Move all the plugins to system path\
     ```
-    sudo cp ./zsh/plugins /usr/share/zsh
+    cd ~
+    sudo cp ~/dotfile-backup/zsh/plugins /usr/share/zsh
     ```
-
-5. Make them work
+6. Make them work
     ```
     source .zshrc
     ```
