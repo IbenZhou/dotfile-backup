@@ -25,7 +25,7 @@ Back up my usual dot file on linux
 5. Move all the plugins to system path\
     ```
     cd ~
-    sudo cp ~/dotfile-backup/zsh/plugins /usr/share/zsh
+    sudo cp ~/dotfile-backup/zsh/plugins /usr/share/zsh -r
     ```
 6. Make them work
     ```
