@@ -4,8 +4,7 @@ Back up my usual dot file on linux
 ### How to use it.
 1. Clone this repository
     ```
-    cd ~
-    https://github.com/IbenZhou/dotfile-backup.git
+    cd ~ && git clone https://github.com/IbenZhou/dotfile-backup.git
     ````
 3. cp all file to home
     ```
@@ -25,7 +24,7 @@ Back up my usual dot file on linux
 5. Move all the plugins to system path\
     ```
     cd ~
-    sudo cp ~/dotfile-backup/zsh/plugins /usr/share/zsh -r
+    sudo cp ~/dotfile-backup/zsh/plugins /usr/share/zsh -rt
     ```
 6. Make them work
     ```
